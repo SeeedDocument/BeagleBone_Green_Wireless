@@ -1,13 +1,16 @@
 ----
+#BeagleBone Green Wireless
 ##Introduction
 ----
 ![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/BBGW_cover.png?raw=true)
-SeeedStudio BeagleBone Green Wireless (BBGW) is a joint effort by BeagleBoard.org and Seeed Studio. It is based on the open-source hardware design of [BeagleBone Black](http://beagleboard.org/black) and developed into this differentiated version. SeeedStudio BeagleBone Green Wireless has included a high-performance flexible WiFi/Bluetooth interface and two Grove connectors, making it easier to connect to the large family of Grove sensors. The on-board HDMI and Ethernet are removed to make room for these wireless features and Grove connectors.
+SeeedStudio BeagleBone Green Wireless (BBGW) is a joint effort by [BeagleBoard.org](http://beaglebone.org) and [Seeed Studio](http://seeed.cc). It is based on the open-source hardware design of [BeagleBone Black](http://beagleboard.org/black) and developed into this differentiated version. SeeedStudio BeagleBone Green Wireless has included a high-performance flexible WiFi/Bluetooth interface and two Grove connectors, making it easier to connect to the large family of Grove sensors. The on-board HDMI and Ethernet are removed to make room for these wireless features and Grove connectors.
 
 [![](https://github.com/SeeedDocument/BeagleBone_Green_Wireless/blob/master/images/get_one_now.png?raw=true)](http://www.seeedstudio.com/SeeedStudio-BeagleBone-Green-Wireless-p-2650.html)
 
 ##Features
 ----
+
+- **Fully Compatible with BeagleBone Black**
 - **Processor: AM335x 1GHz ARM® Cortex-A8**
   - 512MB DDR3 RAM
   - 4GB 8-bit eMMC on-board flash storage
@@ -59,6 +62,8 @@ SeeedStudio BeagleBone Green Wireless (BBGW) is a joint effort by BeagleBoard.or
 Here are some funny projects for your reference.
 
 ##Getting Started
+----
+
 !!!Note
 
 
