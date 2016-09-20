@@ -1,4 +1,4 @@
-BeagleBone Green
+BeagleBone Green Wireless
 ---
 
 **SKU**: [102010048](http://www.seeedstudio.com/SeeedStudio-BeagleBone-Green-Wireless-p-2650.html)
