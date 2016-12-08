@@ -292,19 +292,22 @@ If you desire to write the image to your on-board eMMC, you need to launch to th
 
 In **/boot/uEnv.txt**:
 
-    ##enable BBB: eMMC Flasher:
+    ##enable Generic eMMC Flasher:
+    ##make sure, these tools are installed: dosfstools rsync
     #cmdline=init=/opt/scripts/tools/eMMC/init-eMMC-flasher-v3.sh
+    
 Change to:
 
-    ##enable BBB: eMMC Flasher:
+    ##enable Generic eMMC Flasher:
+    ##make sure, these tools are installed: dosfstools rsync
     cmdline=init=/opt/scripts/tools/eMMC/init-eMMC-flasher-v3.sh
 
-Then you will find the 4 user led light as below
+Then you will find the 4 user led light as below:
 
 ![enter image description here](https://raw.githubusercontent.com/SeeedDocument/BeagleBone_Green/master/images/flashing.gif)
 
 !!!Note
-    If you don't find the upper tracing light, please press the RESET button to reset the board.
+    If you don't find the upper tracing light, please power down and power up the board.
 
 When the flashing is complete, all 4 USRx LEDs will be **off**. The latest Debian flasher images automatically power down the board upon completion. This can take up to **10 minutes**. Power-down your board, remove the SD card and apply power again to be complete.
 
